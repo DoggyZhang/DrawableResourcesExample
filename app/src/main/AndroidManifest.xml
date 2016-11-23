@@ -15,6 +15,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".BitmapActivity"/>
+        <activity android:name=".ClipActivity"/>
+        <activity android:name=".ShapeActivity"/>
+        <activity android:name=".InsetActivity"/>
+        <activity android:name=".LayerActivity"/>
+        <activity android:name=".LevelActivity"/>
+        <activity android:name=".NinePatchActivity"/>
+        <activity android:name=".ScaleActivity"/>
+        <activity android:name=".StateActivity"/>
+        <activity android:name=".TransitionActivity"/>
     </application>
 
 </manifest>
