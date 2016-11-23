@@ -15,8 +15,14 @@ public class ScaleActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scale);
-        ImageView view = (ImageView) findViewById(R.id.image);
-        view.setImageLevel(1);
+        ImageView view30 = (ImageView) findViewById(R.id.image30);
+        view30.setImageLevel(1);
+
+        ImageView view50 = (ImageView) findViewById(R.id.image50);
+        view50.setImageLevel(1);
+
+        ImageView view80 = (ImageView) findViewById(R.id.image80);
+        view80.setImageLevel(1);
     }
 
 }
